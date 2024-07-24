@@ -1,0 +1,44 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 20%;
+
+}
+
+.menu{
+    letter-spacing: 50%;
+}
+
+header{
+    background-color: #274029;
+}
+
+li{
+    color: black;
+}
+li :hover{
+    color: white;
+    transition: all 0.5s linear;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    height: 70vh;
+}
