@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"><abbr title=""></abbr>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header class="menu">
+        <ul>
+            <li><a href="#section01">Section 01</a></li>
+            <li><a href="#section02">Section 02</a></li>
+            <li><a href="#section03">Section 03</a></li>
+            <li><a href="#section04">Section 04</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="section01">
+            <div class="Section-Left-Div">
+                <img class="ImagemDeExemplo" src="./Assets/Images/Image_created_with_a_mobile_phone.png"
+                    alt="FotoDePerfilDoCidadão">
+            </div>
+            <div class="Section-Right-Div">
+                <h2 class="h01">Nome do cidadão</h2>
+                <p class="p01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor, cupiditate
+                    repudiandae labore
+                    similique deleniti officiis quibusdam saepe, impedit pariatur quis ea illum error minus natus vitae
+                    accusantium laborum possimus?</p>
+            </div>
+        </section>
+
+        <section id="section02">
+            <h2 class="tec-title">Tecnologias</h2>
+            <div class="wrap-tecs">
+                <div>
+                    <img src="./Assets/ícons/html-5.png" alt="" width="100px" height="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi itaque voluptatum,
+                        delectus officia, ipsam maiores voluptatem illum quam laudantium minus temporibus necessitatibus
+                        doloribus sint est magnam rerum qui et!</p>
+                </div>
+                <div>
+                    <img src="./Assets/ícons/css-3.png" alt="" width="100px" height="auto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure saepe aspernatur cumque, ducimus
+                        commodi in expedita iste repellat, quae ipsam, beatae explicabo. Maiores amet incidunt
+                        voluptates, voluptatibus ducimus illo ad.</p>
+                </div>
+                <div>
+                    <img src="./Assets/ícons/js.png" alt="" width="100px" height="auto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquid ipsam praesentium,
+                        aspernatur recusandae repudiandae! Accusamus minus sapiente repellat, eveniet voluptatum harum
+                        veniam recusandae atque! Ullam, iure. Asperiores, cupiditate voluptatibus.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section03">
+            <h2>We design your ideas</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="button-section03">Set your project</button>
+        </section>
+
+        <section id="section04">
+            <div class="LeftContact">
+                <h2 class="heading-contact">Contato</h2>
+                
+
+                <div style="display: flex; flex-direction: column;">
+                    <label for="">Nome</label>
+                    <input type="text" id="nome">
+                </div>
+                <div style="display: flex; flex-direction:column ; ">
+
+                    <label for="">Mensagem</label>
+                    <input type="text" id="mensagem" />
+                </div>
+                <button onclick="conferirMensagemWhatsApp()">Conferir mensagem</button>
+            </div>
+            <div class="RightContact" id="aparecercontact">
+                <div>
+                    <p>
+                        Nome: <span id="ConfNome"></span>
+                    </p>
+                    <p>
+                        Mensagem: <span id="ConfMsg"></span>
+                    </p>
+                </div>
+                <button onclick="enviar()">Enviar uma mensagem📱</button>
+            </div>
+        </section>
+        <footer>
+            <a href="https://www.instagram.com/"><img src="./Assets/ícons/instagram.png" alt="Instagram" width="40px" height="auto"><p style="color: white">Instagram</p></a>
+            <a href="https://www.facebook.com/"><img src="./Assets/ícons/facebook.png" alt="Facebook" width="40px" height="auto"><p style="color: white">Facebook</p></a>
+            <a href="https://www.linkedin.com/in/andredev88/"><img src="./Assets/ícons/linkedin.png" alt="Linkedin" width="40px" height="auto"><p style="color: white">Linkedin</p></a>
+        </footer>
+
+    </main>
+
+
+</body>
+
+<!-- pesquisar Daniel Snows / Dark Code -->
+
+</html>
